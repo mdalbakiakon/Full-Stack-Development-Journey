@@ -1,1 +1,1 @@
-alert("#day 05 | Learning List/Image/Videoes/Table in HTML")
+alert("#Day 05 | Learning List/Image/Videoes/Table in HTML")
