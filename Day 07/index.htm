@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Learn about form in html">
+    <title>Learning Forms in HTML</title>
+</head>
+<body>
+    <h3>Form for Full Stack Developer Course</h3>
+    <form action="url or page where the form info will be posted" method="post">
+            <label for="fullname">Full Name: </label>
+            <input type="text" id="fullname" name="username" placeholder="Enter Your Name">
+
+            <!-- label's for attribut must match the id name of the input/ when we will click on the label value it will take us to the input section meaning the cursor will pop up in the input section!!!! -->
+            <!-- name in the input section identify the same term input for example -->
+
+            <!-- <input type="radio" id="choose_gender1" name="gender" value="male">
+            <input type="radio" id="choose_gender2" name="gender2" value="female"> -->
+
+            <!-- here our name was different in the input tag right? so when we choose we will choose the both option meaning we can not say the html to choose only one in these two -->
+
+            <!-- lets fix it -->
+            <div>
+                Gender:
+                <input type="radio" id="male_gender" name="gender" value="Male">
+                <label for="male_gender">Male</label>
+                <input type="radio" id="female_gender" name="gender" value="Female">
+                <label for="female_gender">Female</label>
+            </div>
+
+            <!-- so here when the name attribute is same for the both radio input only one can be selected -->
+
+            <!-- Remember label's for attribute must match the id of the input and id refers to an unique identifier of a html tag -->
+            
+        
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
