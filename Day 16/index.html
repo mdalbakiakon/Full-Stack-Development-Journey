@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 16 | Styling with internal CSS</title>
+    <style>
+        body{
+            background-color: antiquewhite;
+        }
+        div{
+            background-color: red;
+        }
+        .red{
+            background-color: rebeccapurple;
+        }
+        #green{
+            background-color: yellowgreen;
+        }
+
+        div > p{
+            background-color: yellow;
+        }
+        /*this is called the child selector*/
+        
+        div p {
+            background-color: brown;
+        }
+        /*This is called descendant selector*/
+
+        
+    </style>
+
+    <!-- class or id are most specific -->
+</head>
+<body>
+    <div class="red">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, quos blanditiis quia vel eaque ipsa corporis impedit doloribus sapiente debitis et ratione aut! Minus, aut?</div>
+
+    <div id="green">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum sed id ullam voluptas est porro adipisci, ducimus asperiores, odio natus distinctio reiciendis dolor veniam! Doloremque!
+    </div>
+
+    <div>
+        <p>
+            I am paragraph under div
+        </p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam ad id voluptas minima commodi, aspernatur nostrum laudantium voluptatibus. Laboriosam dolor iusto soluta, incidunt ipsum distinctio.
+        <article>
+            <p>
+                Hello world I am paragraph under div & under article
+            </p>
+        </article>
+    </div>
+</body>
+</html>
